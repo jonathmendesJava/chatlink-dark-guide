@@ -103,15 +103,15 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
               <h4 className="font-semibold text-white">Passos para configuração:</h4>
               <ol className="list-decimal pl-6 space-y-3 text-slate-300">
                 <li>
-                  <strong>Perfil da Empresa:</strong> Acesse Configurações {'>'}  Empresa
+                  <strong>Perfil da Empresa:</strong> Acesse Configurações {'>'}  Conta
                   <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li>Nome da empresa e logo</li>
-                    <li>Horário de funcionamento</li>
-                    <li>Informações de contato</li>
+                    <li>Nome da Conta</li>
+                    <li>Idioma do site</li>
+                    <li>Informações da conta</li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Configurações de Notificação:</strong> Defina como receber alertas
+                  <strong>Configurações de Notificação:</strong> Definido Pelo Administrador
                   <ul className="list-disc pl-6 mt-2 space-y-1">
                     <li>Notificações por email</li>
                     <li>Alertas de mensagens não lidas</li>
@@ -119,9 +119,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                   </ul>
                 </li>
                 <li>
-                  <strong>Personalização da Interface:</strong> Ajuste a plataforma às suas necessidades
+                  <strong>Personalização da Interface:</strong> Ajustado a plataforma para melhor uso
                   <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li>Escolha de cores tema</li>
+                    <li>cores do tema</li>
                     <li>Layout do dashboard</li>
                     <li>Atalhos personalizados</li>
                   </ul>
@@ -140,9 +140,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <div className="bg-slate-800 p-4 rounded-lg">
                   <h5 className="font-semibold text-green-400 mb-2">WhatsApp Business</h5>
                   <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
-                    <li>Vá em Configurações {'>'}  Canais {'>'}  WhatsApp</li>
-                    <li>Clique em "Conectar WhatsApp Business"</li>
-                    <li>Escaneie o QR Code com seu celular</li>
+                    <li>Vá em Configurações {'>'}  Caixa de entrada {'>'}  Adicionar</li>
+                    <li>Clique em "WhatsApp Business"</li>
+                    <li>Configuração feita pelo Desenvolvedor</li>
                     <li>Aguarde a sincronização das conversas</li>
                     <li>Configure mensagens automáticas (opcional)</li>
                   </ol>
@@ -150,8 +150,8 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <div className="bg-slate-800 p-4 rounded-lg">
                   <h5 className="font-semibold text-blue-400 mb-2">Instagram Direct</h5>
                   <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
-                    <li>Acesse Configurações {'>'}  Canais {'>'}  Instagram</li>
-                    <li>Conecte sua conta business do Instagram</li>
+                    <li>Acesse Configurações {'>'}  Caixa de entrada {'>'}  Instagram</li>
+                    <li>Configuração feita pelo Desenvolvedor</li>
                     <li>Autorize as permissões necessárias</li>
                     <li>Configure respostas rápidas para DMs</li>
                   </ol>
@@ -170,17 +170,15 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <div className="bg-slate-800 p-4 rounded-lg">
                   <h5 className="font-semibold text-white mb-2">Níveis de Acesso</h5>
                   <ul className="space-y-2 text-slate-300 text-sm">
-                    <li><strong className="text-green-400">Administrador:</strong> Acesso total ao sistema</li>
-                    <li><strong className="text-blue-400">Supervisor:</strong> Gerencia equipe e relatórios</li>
+                    <li><strong className="text-green-400">Administrador:</strong> Acesso total ao sistema</li>                    
                     <li><strong className="text-yellow-400">Agente:</strong> Atende conversas atribuídas</li>
                   </ul>
                 </div>
                 <div className="bg-slate-800 p-4 rounded-lg">
                   <h5 className="font-semibold text-white mb-2">Processo de Convite</h5>
                   <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
-                    <li>Vá em Equipe {'>'}  Adicionar Membro</li>
-                    <li>Insira email e selecione nível de acesso</li>
-                    <li>Defina departamentos e horários</li>
+                    <li>Vá em Agentes {'>'}  Adicionar Agente</li>
+                    <li>Insira nome, email e selecione nível de acesso</li>                    
                     <li>Envie convite por email</li>
                   </ol>
                 </div>
@@ -229,7 +227,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <h5 className="font-semibold text-white mb-2">Como configurar filtros personalizados:</h5>
                 <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
                   <li>Clique no ícone de filtro no topo da caixa de entrada</li>
-                  <li>Selecione critérios: canal, agente, status, data</li>
+                  <li>Selecione critérios: Situação, Logica, status</li>
                   <li>Salve o filtro com um nome personalizado</li>
                   <li>Acesse rapidamente via menu lateral</li>
                 </ol>
@@ -254,18 +252,19 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                     <li>• Histórico com o cliente</li>
                   </ul>
                   <div className="mt-3 p-3 bg-slate-900 rounded">
-                    <p className="text-slate-400 text-xs">Configuração: Equipe {'>'}  Regras de Atribuição</p>
+                    <p className="text-slate-400 text-xs">Metodo {'>'}  Descontinuado</p>
                   </div>
                 </div>
                 <div className="bg-slate-800 p-4 rounded-lg">
                   <h5 className="font-semibold text-blue-400 mb-2">Atribuição Manual</h5>
-                  <p className="text-slate-300 text-sm mb-2">Supervisores podem atribuir conversas manualmente:</p>
+                  <p className="text-slate-300 text-sm mb-2">Supervisores e agentes podem atribuir conversas manualmente:</p>
                   <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
                     <li>Selecione a conversa na caixa de entrada</li>
-                    <li>Clique em "Atribuir" no menu de ações</li>
+                    <li>Clique em "Atribuir a mim" no menu de ações para atribuir a si mesmo</li>
+                    <li>"Agente atribuido" para direcionar a um agente</li>
                     <li>Escolha o agente disponível</li>
                     <li>Adicione nota explicativa (opcional)</li>
-                    <li>Confirme a atribuição</li>
+                    <li>atribuição automatica</li>
                   </ol>
                 </div>
               </div>
@@ -279,14 +278,10 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             <div className="space-y-4">
               <h4 className="font-semibold text-white">Status Disponíveis:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="space-y-3">
-                  <div className="bg-yellow-900 p-3 rounded-lg">
-                    <h5 className="font-semibold text-yellow-400">🟡 Aguardando</h5>
-                    <p className="text-slate-300 text-sm">Conversa não atribuída ou aguardando primeira resposta</p>
-                  </div>
+                <div className="space-y-3">                  
                   <div className="bg-blue-900 p-3 rounded-lg">
-                    <h5 className="font-semibold text-blue-400">🔵 Em Andamento</h5>
-                    <p className="text-slate-300 text-sm">Conversa ativa com agente atribuído</p>
+                    <h5 className="font-semibold text-blue-400">🔵 Adiar</h5>
+                    <p className="text-slate-300 text-sm">Conversa que logo após algumas horas, tera retorno</p>
                   </div>
                   <div className="bg-green-900 p-3 rounded-lg">
                     <h5 className="font-semibold text-green-400">🟢 Resolvido</h5>
@@ -295,17 +290,13 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 </div>
                 <div className="space-y-3">
                   <div className="bg-red-900 p-3 rounded-lg">
-                    <h5 className="font-semibold text-red-400">🔴 Urgente</h5>
-                    <p className="text-slate-300 text-sm">Requer atenção imediata da supervisão</p>
+                    <h5 className="font-semibold text-red-400">🔴 Deixar Pentende</h5>
+                    <p className="text-slate-300 text-sm">Conversa com retorno apos um determinado tempo</p>
                   </div>
                   <div className="bg-gray-800 p-3 rounded-lg">
-                    <h5 className="font-semibold text-gray-400">⚫ Fechado</h5>
+                    <h5 className="font-semibold text-gray-400">⚫ Resolver</h5>
                     <p className="text-slate-300 text-sm">Conversa finalizada e arquivada</p>
-                  </div>
-                  <div className="bg-purple-900 p-3 rounded-lg">
-                    <h5 className="font-semibold text-purple-400">🟣 Transferido</h5>
-                    <p className="text-slate-300 text-sm">Movido para outro departamento/agente</p>
-                  </div>
+                  </div>                 
                 </div>
               </div>
             </div>
@@ -318,18 +309,19 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             <div className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-slate-800 p-4 rounded-lg">
-                  <h5 className="font-semibold text-green-400 mb-2">Respostas Rápidas</h5>
+                  <h5 className="font-semibold text-green-400 mb-2">Respostas Prontas</h5>
                   <p className="text-slate-300 text-sm mb-2">Crie templates para mensagens frequentes:</p>
                   <ul className="text-slate-300 text-sm space-y-1">
                     <li>• Saudações personalizadas</li>
                     <li>• Respostas para dúvidas comuns</li>
                     <li>• Procedimentos padrão</li>
                     <li>• Despedidas profissionais</li>
+                    <li>• Configurações  {'>'} respostas prontas</li>
                   </ul>
                 </div>
                 <div className="bg-slate-800 p-4 rounded-lg">
                   <h5 className="font-semibold text-blue-400 mb-2">Notas Internas</h5>
-                  <p className="text-slate-300 text-sm mb-2">Comunicação entre agentes:</p>
+                  <p className="text-slate-300 text-sm mb-2">Comunicação entre agentes: Mensagem privada</p>
                   <ul className="text-slate-300 text-sm space-y-1">
                     <li>• Contexto para transferências</li>
                     <li>• Observações sobre o cliente</li>
@@ -338,15 +330,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                   </ul>
                 </div>
               </div>
-              <div className="bg-slate-900 p-4 rounded-lg">
-                <h5 className="font-semibold text-white mb-2">Atalhos de Teclado:</h5>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
-                  <div><kbd className="bg-slate-700 px-2 py-1 rounded">Ctrl+R</kbd> <span className="text-slate-400">Resposta rápida</span></div>
-                  <div><kbd className="bg-slate-700 px-2 py-1 rounded">Ctrl+T</kbd> <span className="text-slate-400">Transferir</span></div>
-                  <div><kbd className="bg-slate-700 px-2 py-1 rounded">Ctrl+D</kbd> <span className="text-slate-400">Marcar resolvido</span></div>
-                  <div><kbd className="bg-slate-700 px-2 py-1 rounded">Ctrl+N</kbd> <span className="text-slate-400">Nova nota</span></div>
-                </div>
-              </div>
+              
             </div>
           </ExpandableCard>
         </div>
@@ -368,11 +352,10 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             <div className="space-y-4">
               <h4 className="font-semibold text-white">Adicionando novos agentes:</h4>
               <ol className="list-decimal pl-6 space-y-2 text-slate-300">
-                <li>Acesse Equipe {'>'}  Gerenciar Agentes</li>
+                <li>Acesse Agentes {'>'}  Adicionar Agente</li>
                 <li>Clique em "Adicionar Novo Agente"</li>
-                <li>Preencha informações básicas (nome, email, telefone)</li>
-                <li>Defina nível de acesso e departamento</li>
-                <li>Configure horário de trabalho</li>
+                <li>Preencha informações básicas (nome, email)</li>
+                <li>Defina nível de acesso e departamento</li>                
                 <li>Envie convite por email</li>
               </ol>
               <div className="bg-slate-800 p-4 rounded-lg">
@@ -404,18 +387,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                     <li>• Configurar automações</li>
                     <li>• Gerenciar planos e faturamento</li>
                   </ul>
-                </div>
-                <div className="bg-blue-900 p-4 rounded-lg border border-blue-700">
-                  <h5 className="font-semibold text-blue-400 mb-2">🎯 Supervisor</h5>
-                  <p className="text-slate-300 text-sm mb-2">Gerencia equipe e monitora atendimento:</p>
-                  <ul className="text-slate-300 text-sm space-y-1 pl-4">
-                    <li>• Visualizar conversas de todos os agentes</li>
-                    <li>• Atribuir e transferir conversas</li>
-                    <li>• Acessar relatórios de performance</li>
-                    <li>• Treinar e orientar agentes</li>
-                    <li>• Configurar respostas rápidas</li>
-                  </ul>
-                </div>
+                </div>               
                 <div className="bg-green-900 p-4 rounded-lg border border-green-700">
                   <h5 className="font-semibold text-green-400 mb-2">💬 Agente</h5>
                   <p className="text-slate-300 text-sm mb-2">Foco no atendimento direto ao cliente:</p>
@@ -436,10 +408,10 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Organize sua equipe por especialidades e departamentos"
           >
             <div className="space-y-4">
-              <h4 className="font-semibold text-white">Criando Departamentos:</h4>
+              <h4 className="font-semibold text-white">Criando Equipes:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-slate-800 p-4 rounded-lg">
-                  <h5 className="font-semibold text-green-400 mb-2">Exemplos de Departamentos</h5>
+                  <h5 className="font-semibold text-green-400 mb-2">Exemplos de Equipes</h5>
                   <ul className="text-slate-300 text-sm space-y-1">
                     <li>• 💰 Vendas</li>
                     <li>• 🛠️ Suporte Técnico</li>
@@ -449,7 +421,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                   </ul>
                 </div>
                 <div className="bg-slate-800 p-4 rounded-lg">
-                  <h5 className="font-semibold text-blue-400 mb-2">Configurações por Departamento</h5>
+                  <h5 className="font-semibold text-blue-400 mb-2">Configurações por Equipes</h5>
                   <ul className="text-slate-300 text-sm space-y-1">
                     <li>• Horário de funcionamento específico</li>
                     <li>• Mensagens automáticas personalizadas</li>
@@ -457,16 +429,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                     <li>• Templates de resposta únicos</li>
                   </ul>
                 </div>
-              </div>
-              <div className="bg-slate-900 p-4 rounded-lg">
-                <h5 className="font-semibold text-white mb-2">Como configurar roteamento automático:</h5>
-                <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
-                  <li>Vá em Configurações {'>'}  Departamentos</li>
-                  <li>Crie departamento e defina palavras-chave</li>
-                  <li>Configure regras de roteamento</li>
-                  <li>Teste com mensagens de exemplo</li>
-                </ol>
-              </div>
+              </div>              
             </div>
           </ExpandableCard>
         </div>
@@ -686,19 +649,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <li>
                   <strong>No ChatLink:</strong>
                   <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li>Acesse Configurações {'>'}  Canais {'>'}  WhatsApp</li>
+                    <li>Acesse Configurações {'>'}  Caixa de entrada {'>'}  WhatsApp</li>
                     <li>Clique em "Conectar WhatsApp Business"</li>
-                    <li>Um QR Code aparecerá na tela</li>
+                    <li>Processo feito pelo ChatLink na sua ativação</li>
                   </ul>
-                </li>
-                <li>
-                  <strong>No WhatsApp Business:</strong>
-                  <ul className="list-disc pl-6 mt-2 space-y-1">
-                    <li>Abra o app e vá em Configurações</li>
-                    <li>Toque em "Dispositivos conectados"</li>
-                    <li>Escaneie o QR Code do ChatLink</li>
-                  </ul>
-                </li>
+                </li>                
               </ol>
               <div className="bg-yellow-900 p-4 rounded-lg">
                 <h5 className="font-semibold text-yellow-400 mb-2">⚠️ Importante:</h5>
@@ -751,10 +706,10 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                   <h5 className="font-semibold text-green-400 mb-2">Mensagem de Boas-vindas</h5>
                   <p className="text-slate-300 text-sm mb-2">Configuração:</p>
                   <ol className="list-decimal pl-4 space-y-1 text-slate-300 text-sm">
-                    <li>Vá em Automação {'>'}  Mensagens de Boas-vindas</li>
+                    <li>Vá em Automação {'>'}  Adicionar regra de automação</li>
                     <li>Defina texto personalizado para cada canal</li>
-                    <li>Configure horário de funcionamento</li>
-                    <li>Adicione botões de ação rápida</li>
+                    <li>Configure as informações pedidas</li>
+                    <li>Criar</li>
                   </ol>
                 </div>
                 <div className="bg-slate-800 p-4 rounded-lg">
@@ -789,13 +744,13 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Entenda os limites e planos disponíveis"
           >
             <div className="space-y-4">
-              <h4 className="font-semibold text-white">Planos Disponíveis:</h4>
+              <h4 className="font-semibold text-white">Planos Disponíveis: Mediante Contrato</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-blue-900 p-4 rounded-lg">
                   <h5 className="font-semibold text-blue-400 mb-2">Starter</h5>
-                  <div className="text-2xl font-bold text-white mb-2">Até 3 agentes</div>
+                  <div className="text-2xl font-bold text-white mb-2">Até 2 agentes</div>
                   <ul className="text-slate-300 text-sm space-y-1">
-                    <li>• 1 canal integrado</li>
+                    <li>• varios canais integrados</li>
                     <li>• Relatórios básicos</li>
                     <li>• Suporte por email</li>
                   </ul>
@@ -842,13 +797,13 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <div className="bg-green-900 p-4 rounded-lg">
                   <h5 className="font-semibold text-green-400 mb-2">💬 WhatsApp</h5>
                   <p className="text-slate-300 text-sm mb-2">Atendimento rápido e direto</p>
-                  <p className="text-slate-400 text-sm">+55 (11) 99999-9999</p>
-                  <p className="text-slate-400 text-sm">Seg-Sex: 8h às 18h</p>
+                  <p className="text-slate-400 text-sm">+55 (92) 2020-1234</p>
+                  <p className="text-slate-400 text-sm">Seg-Sab: 8h às 17h</p>
                 </div>
                 <div className="bg-blue-900 p-4 rounded-lg">
                   <h5 className="font-semibold text-blue-400 mb-2">📧 Email</h5>
                   <p className="text-slate-300 text-sm mb-2">Para questões mais detalhadas</p>
-                  <p className="text-slate-400 text-sm">suporte@chatlink.com.br</p>
+                  <p className="text-slate-400 text-sm">comercial@fios.net.br</p>
                   <p className="text-slate-400 text-sm">Resposta em até 4h</p>
                 </div>
                 <div className="bg-purple-900 p-4 rounded-lg">
@@ -860,7 +815,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                 <div className="bg-yellow-900 p-4 rounded-lg">
                   <h5 className="font-semibold text-yellow-400 mb-2">📚 Central de Ajuda</h5>
                   <p className="text-slate-300 text-sm mb-2">Documentação completa</p>
-                  <p className="text-slate-400 text-sm">help.chatlink.com.br</p>
+                  <p className="text-slate-400 text-sm">Dentro do seu ChatLink</p>
                   <p className="text-slate-400 text-sm">Disponível 24/7</p>
                 </div>
               </div>
@@ -923,11 +878,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
                     <li>• Melhores práticas</li>
                   </ul>
                 </div>
-              </div>
-              <div className="bg-slate-900 p-4 rounded-lg">
-                <h5 className="font-semibold text-white mb-2">🔍 Busca Inteligente:</h5>
-                <p className="text-slate-300 text-sm">Use a busca na central de ajuda para encontrar respostas instantâneas. Nossa IA identifica automaticamente sua dúvida e sugere os artigos mais relevantes.</p>
-              </div>
+              </div>              
             </div>
           </ExpandableCard>
         </div>

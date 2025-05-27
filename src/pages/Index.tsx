@@ -7,7 +7,7 @@ const Index = () => {
   const [activeSection, setActiveSection] = useState('overview');
 
   const handleWhatsAppSupport = () => {
-    window.open('https://wa.me/seunumero', '_blank');
+    window.open('https://wa.me/9220201234', '_blank');
   };
 
   return (
@@ -36,7 +36,7 @@ const Index = () => {
         <footer className="border-t border-slate-800 p-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-slate-400">
-              <strong className="text-white">Desenvolvido com 💻 por FIOS Tecnologia</strong>
+              <strong className="text-white">Desenvolvido por FIOS Tecnologia</strong>
             </p>
           </div>
         </footer>
