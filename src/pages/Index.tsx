@@ -11,7 +11,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 flex">
+    <div className="min-h-screen bg-slate-950 flex flex-col md:flex-row">
       <DocumentationSidebar 
         activeSection={activeSection} 
         onSectionChange={setActiveSection} 
@@ -21,11 +21,11 @@ const Index = () => {
         <DocumentationContent activeSection={activeSection} />
         
         {/* Support Button */}
-        <div className="p-8">
+        <div className="p-4 md:p-8">
           <div className="max-w-4xl mx-auto">
             <button
               onClick={handleWhatsAppSupport}
-              className="w-full bg-green-700 hover:bg-green-800 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 text-lg shadow-lg"
+              className="w-full bg-green-700 hover:bg-green-800 text-white font-semibold py-3 md:py-4 px-4 md:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 text-base md:text-lg shadow-lg"
             >
               <span>🛠️ Abrir Ticket de Suporte</span>
             </button>
@@ -33,9 +33,9 @@ const Index = () => {
         </div>
         
         {/* Footer */}
-        <footer className="border-t border-slate-800 p-6">
+        <footer className="border-t border-slate-800 p-4 md:p-6">
           <div className="max-w-4xl mx-auto text-center">
-            <p className="text-slate-400">
+            <p className="text-slate-400 text-sm md:text-base">
               <strong className="text-white">Desenvolvido por FIOS Tecnologia</strong>
             </p>
           </div>
