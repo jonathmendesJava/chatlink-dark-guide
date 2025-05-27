@@ -1,11 +1,45 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useState } from 'react';
+import DocumentationSidebar from '../components/DocumentationSidebar';
+import DocumentationContent from '../components/DocumentationContent';
 
 const Index = () => {
+  const [activeSection, setActiveSection] = useState('overview');
+
+  const handleWhatsAppSupport = () => {
+    window.open('https://wa.me/seunumero', '_blank');
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gray-950 flex">
+      <DocumentationSidebar 
+        activeSection={activeSection} 
+        onSectionChange={setActiveSection} 
+      />
+      
+      <div className="flex-1 flex flex-col">
+        <DocumentationContent activeSection={activeSection} />
+        
+        {/* Support Button */}
+        <div className="p-8">
+          <div className="max-w-4xl mx-auto">
+            <button
+              onClick={handleWhatsAppSupport}
+              className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 text-lg shadow-lg"
+            >
+              <span>🛠️ Abrir Ticket de Suporte</span>
+            </button>
+          </div>
+        </div>
+        
+        {/* Footer */}
+        <footer className="border-t border-gray-800 p-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-gray-400">
+              <strong className="text-white">Desenvolvido com 💻 por FIOS Tecnologia</strong>
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   );
