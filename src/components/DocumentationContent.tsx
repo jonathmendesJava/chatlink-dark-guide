@@ -163,7 +163,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           <div className="space-y-4">
             <div className="bg-gray-800 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-white mb-3">Como integrar o WhatsApp?</h3>
-              <p className="text-gray-300">Acesse Configurações > Canais > WhatsApp e siga o processo de autenticação com QR Code.</p>
+              <p className="text-gray-300">Acesse Configurações {'>'}  Canais {'>'}  WhatsApp e siga o processo de autenticação com QR Code.</p>
             </div>
             <div className="bg-gray-800 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-white mb-3">Posso usar em múltiplos dispositivos?</h3>
@@ -171,7 +171,7 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             </div>
             <div className="bg-gray-800 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-white mb-3">Como configurar respostas automáticas?</h3>
-              <p className="text-gray-300">Vá em Automação > Respostas Automáticas e configure mensagens baseadas em palavras-chave.</p>
+              <p className="text-gray-300">Vá em Automação {'>'}  Respostas Automáticas e configure mensagens baseadas em palavras-chave.</p>
             </div>
             <div className="bg-gray-800 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-white mb-3">Existe limite de agentes?</h3>
