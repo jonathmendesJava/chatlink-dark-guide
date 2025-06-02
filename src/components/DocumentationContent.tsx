@@ -21,11 +21,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             title="Interface Intuitiva e Moderna"
             summary="Explore todos os recursos da nossa interface redesenhada"
           >
-            <div className="space-y-4 md:space-y-6">
+            <div className="space-y-4 md:space-y-10">
               <img
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                src="src/img/Captura de Tela 2025-06-02 às 13.52.15.png"
                 alt="Screenshot da Interface Principal"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[600px] object-contaion rounded-2xl"
               />
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                 Nossa interface foi completamente redesenhada pensando na experiência do usuário. 
@@ -47,9 +47,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                src="src/img/Captura de Tela 2025-06-02 às 14.00.35.png"
                 alt="Integração de Canais"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[800px] object-contaion rounded-2xl"
               />
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                 Integre todos os seus canais de comunicação e gerencie tudo em uma única plataforma:
@@ -81,9 +81,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                src="src/img/Captura de Tela 2025-06-02 às 14.03.01.png"
                 alt="Dashboard de Analytics"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[600px] object-contaion rounded-2xl"
               />
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                 Acesse relatórios detalhados e tome decisões baseadas em dados:
@@ -217,9 +217,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                src="src/img/Captura de Tela 2025-06-02 às 14.05.32.png"
                 alt="Interface da Caixa de Entrada"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[200px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Funcionalidades da Caixa de Entrada:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
@@ -260,9 +260,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+                src="src/img/Captura de Tela 2025-06-02 às 14.07.38.png"
                 alt="Sistema de Distribuição de Conversas"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[360px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Métodos de Atribuição:</h4>
               <div className="space-y-4">
@@ -301,9 +301,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1487887235947-a955ef187fcc"
+                src="src/img/Captura de Tela 2025-06-02 às 14.09.33.png"
                 alt="Status de Conversas"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[350px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Status Disponíveis:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
@@ -337,9 +337,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                src="src/img/Captura de Tela 2025-06-02 às 14.11.47.png"
                 alt="Ferramentas de Produtividade"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[200px] object-contaion rounded-2xl"
               />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
@@ -384,9 +384,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                src="src/img/Captura de Tela 2025-06-02 às 14.16.49.png"
                 alt="Painel de Gerenciamento de Agentes"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[200px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Adicionando novos agentes:</h4>
               <ol className="list-decimal pl-4 md:pl-6 space-y-1 md:space-y-2 text-slate-300 text-xs md:text-sm">
@@ -415,9 +415,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                src="src/img/Captura de Tela 2025-06-02 às 14.18.00.png"
                 alt="Níveis de Permissão"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[400px] object-contaion rounded-2xl"
               />
               <div className="space-y-4">
                 <div className="bg-red-900 p-3 md:p-4 rounded-lg border border-red-700">
@@ -452,9 +452,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                src="src/img/Captura de Tela 2025-06-02 às 14.19.13.png"
                 alt="Organização de Departamentos"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[200px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Criando Equipes:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
@@ -498,9 +498,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                src="src/img/Captura de Tela 2025-06-02 às 14.03.01.png"
                 alt="Dashboard Principal"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[800px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Métricas em Destaque:</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
@@ -539,9 +539,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                src="src/img/Captura de Tela 2025-06-02 às 14.24.57.png"
                 alt="Relatórios de Performance"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[400px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Métricas por Agente:</h4>
               <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
@@ -607,9 +607,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                src="src/img/Captura de Tela 2025-06-02 às 14.26.07.png"
                 alt="Análise de Canais"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[400px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Distribuição por Canal:</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
@@ -655,9 +655,9 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
           >
             <div className="space-y-4 md:space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                src="src/img/Captura de Tela 2025-06-02 às 14.27.44.png"
                 alt="Opções de Exportação"
-                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                className="w-full h-96 md:h-[400px] object-contaion rounded-2xl"
               />
               <h4 className="font-semibold text-white text-sm md:text-base">Formatos Disponíveis:</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
