@@ -22,13 +22,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Explore todos os recursos da nossa interface redesenhada"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">🖥️</div>
-                  <p className="text-slate-400 text-sm md:text-base">Screenshot da Interface Principal</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                alt="Screenshot da Interface Principal"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                 Nossa interface foi completamente redesenhada pensando na experiência do usuário. 
                 Recursos principais incluem:
@@ -48,13 +46,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Centralize todas as suas conversas em um só lugar"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">💬</div>
-                  <p className="text-slate-400 text-sm md:text-base">Integração de Canais</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                alt="Integração de Canais"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                 Integre todos os seus canais de comunicação e gerencie tudo em uma única plataforma:
               </p>
@@ -84,13 +80,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Monitore e otimize seu atendimento com dados precisos"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">📊</div>
-                  <p className="text-slate-400 text-sm md:text-base">Dashboard de Analytics</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                alt="Dashboard de Analytics"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                 Acesse relatórios detalhados e tome decisões baseadas em dados:
               </p>
@@ -222,13 +216,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Centralize todas as mensagens não lidas e conversas ativas"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">📥</div>
-                  <p className="text-slate-400 text-sm md:text-base">Interface da Caixa de Entrada</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                alt="Interface da Caixa de Entrada"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Funcionalidades da Caixa de Entrada:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
@@ -267,13 +259,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Como funciona a distribuição automática e manual de conversas"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">🔄</div>
-                  <p className="text-slate-400 text-sm md:text-base">Sistema de Distribuição de Conversas</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+                alt="Sistema de Distribuição de Conversas"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Métodos de Atribuição:</h4>
               <div className="space-y-4">
                 <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
@@ -310,13 +300,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Entenda e gerencie os diferentes status das conversas"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">📋</div>
-                  <p className="text-slate-400 text-sm md:text-base">Status de Conversas</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1487887235947-a955ef187fcc"
+                alt="Status de Conversas"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Status Disponíveis:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 <div className="space-y-3">                  
@@ -348,13 +336,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Recursos para aumentar a eficiência do atendimento"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">⚡</div>
-                  <p className="text-slate-400 text-sm md:text-base">Ferramentas de Produtividade</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                alt="Ferramentas de Produtividade"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
                   <h5 className="font-semibold text-green-400 mb-2 text-sm md:text-base">Respostas Prontas</h5>
@@ -397,13 +383,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Como adicionar, configurar e gerenciar sua equipe"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">👥</div>
-                  <p className="text-slate-400 text-sm md:text-base">Painel de Gerenciamento de Agentes</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                alt="Painel de Gerenciamento de Agentes"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Adicionando novos agentes:</h4>
               <ol className="list-decimal pl-4 md:pl-6 space-y-1 md:space-y-2 text-slate-300 text-xs md:text-sm">
                 <li>Acesse Agentes {'>'}  Adicionar Agente</li>
@@ -430,13 +414,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Entenda os diferentes níveis de acesso e suas funcionalidades"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">🔐</div>
-                  <p className="text-slate-400 text-sm md:text-base">Níveis de Permissão</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                alt="Níveis de Permissão"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <div className="space-y-4">
                 <div className="bg-red-900 p-3 md:p-4 rounded-lg border border-red-700">
                   <h5 className="font-semibold text-red-400 mb-2 text-sm md:text-base">👑 Administrador</h5>
@@ -469,13 +451,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Organize sua equipe por especialidades e departamentos"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">🏢</div>
-                  <p className="text-slate-400 text-sm md:text-base">Organização de Departamentos</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                alt="Organização de Departamentos"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Criando Equipes:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
@@ -517,13 +497,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Visão geral em tempo real das métricas mais importantes"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">📈</div>
-                  <p className="text-slate-400 text-sm md:text-base">Dashboard Principal</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                alt="Dashboard Principal"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Métricas em Destaque:</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
                 <div className="bg-green-900 p-2 md:p-3 rounded-lg text-center">
@@ -560,13 +538,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Monitore o desempenho individual e coletivo dos agentes"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">👥</div>
-                  <p className="text-slate-400 text-sm md:text-base">Relatórios de Performance</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                alt="Relatórios de Performance"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Métricas por Agente:</h4>
               <div className="bg-slate-800 p-3 md:p-4 rounded-lg">
                 <div className="overflow-x-auto">
@@ -630,13 +606,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Entenda o comportamento dos clientes por canal e período"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">📊</div>
-                  <p className="text-slate-400 text-sm md:text-base">Análise de Canais</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                alt="Análise de Canais"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Distribuição por Canal:</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
                 <div className="bg-green-900 p-2 md:p-3 rounded-lg">
@@ -680,13 +654,11 @@ const DocumentationContent: React.FC<ContentProps> = ({ activeSection }) => {
             summary="Exporte dados e crie relatórios personalizados"
           >
             <div className="space-y-4 md:space-y-6">
-              {/* Image Placeholder */}
-              <div className="w-full h-48 md:h-64 bg-slate-700 rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-3xl md:text-4xl mb-2">📤</div>
-                  <p className="text-slate-400 text-sm md:text-base">Opções de Exportação</p>
-                </div>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                alt="Opções de Exportação"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+              />
               <h4 className="font-semibold text-white text-sm md:text-base">Formatos Disponíveis:</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
                 <div className="bg-red-900 p-3 md:p-4 rounded-lg text-center">
